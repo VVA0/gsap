@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.header {
+  height: 15vh;
+  background-color: red;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.content {
+  flex-grow: 1; /*растягивается на максимально доступную ширину*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  height: 15vh;
+  background-color: blue;
+}
+
+.sidebar {
+  width: 15vw;
+  background-color: green;
+}
+
+.btn {
+  align-self: center;
+  font-size: 30px;
+}
